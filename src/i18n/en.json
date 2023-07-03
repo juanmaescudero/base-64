@@ -1,0 +1,7 @@
+{
+    "app": {
+        "name": "Decode 64 base",
+        "decode": "Decode",
+        "encode": "Encode"
+    }
+}

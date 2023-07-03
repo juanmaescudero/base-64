@@ -1,0 +1,14 @@
+.selected {
+    background-color: var(--color-primary-hover);
+}
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input {
+    width: calc(100% - 40px);
+    min-height: 100px;
+    display: flex;
+    margin: 20px auto;
+}
