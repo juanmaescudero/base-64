@@ -1,14 +1,32 @@
 .selected {
-    background-color: var(--color-primary-hover);
+    background-color: var(--color-primary) !important;
 }
+
 .btn-group {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.input {
+
+.textarea-group {
     width: calc(100% - 40px);
-    min-height: 100px;
     display: flex;
-    margin: 20px auto;
+    justify-content: center; 
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.copy {
+    width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.copy p {
+    color: var(--color-grey);
 }

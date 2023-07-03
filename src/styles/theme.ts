@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material";
+import { colors, createTheme } from "@mui/material";
 
 export const theme = createTheme({
     palette: {
@@ -9,8 +9,10 @@ export const theme = createTheme({
     typography: {
         h1: {
             fontSize: "32px",
-            fontWeight: "bold",
-            color: "var(--color-dark)"
+            fontWeight: 800,
+        },
+        body2: {
+            fontSize: "14px"
         }
     },
     components: {
@@ -20,9 +22,26 @@ export const theme = createTheme({
                     color: "var(--color-light)"
                 },
                 grouped: {
-                    color: "var(--color-light)"
+                    fontFamily: "Montserrat",
+                    fontWeight: 800,
+                    color: "var(--color-light)",
+                    backgroundColor: "var(--color-secondary)",
+                    "&.MuiButtonGroup-grouped:hover": {
+                      backgroundColor: "var(--color-primary-hover) !important",
+                    },
+                    "&.MuiButtonGroup-grouped.Mui-checked": {
+                      backgroundColor: "var(--color-primary)",
+                    },
                 },
             },
         },
+        MuiTypography: {
+            styleOverrides: {
+                root: {
+                    color: "var(--color-light)",
+                    fontFamily: "Montserrat"
+                }
+            }
+        }
     },
 })

@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
 :root {
   --color-primary: #d59dff;
   --color-primary-hover: rgb(149, 109, 178);
   --color-secondary: #444a68;
   --color-dark: #10142a;
+  --color-grey: #8f94ab;
   --color-light: #fff;
+  --border-radius-lg: 20px;
+  --border-radius-md: 12px;
+  --border-radius-sm: 8px;
+}
+
+* {
+  font-family: "Montserrat";
 }

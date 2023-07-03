@@ -1,0 +1,33 @@
+.input {
+    width: 100%;
+    max-width: 500px;
+    min-height: 280px;
+    display: flex;
+    margin: 20px 0;
+    border-radius: var(--border-radius-sm);
+    padding: 10px;
+    resize: none;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 2px 4px 0px var(--color-grey);
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+}
+
+textarea.input::placeholder {
+    color: var(--color-light);
+}
+ 
+.container {
+    width: 100%;
+    max-width: 500px;
+    min-height: 250px;
+    display: flex;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    bottom: 25px;
+    right: 5px;
+}
