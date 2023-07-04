@@ -14,8 +14,25 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-R2CEZW9W0R"></script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-R2CEZW9W0R');
+          `,
+        }}
+      />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5243827457946593" crossOrigin="anonymous"></script>
+      </head>
       <body className={styles.layout}>
-        <Main children={children}/>
+        <Main>
+          {children}
+        </Main>
       </body>
     </html>
   )

@@ -27,7 +27,7 @@ textarea.input::placeholder {
 }
 
 .icon {
-    position: absolute;
+    position: absolute !important;
     bottom: 25px;
     right: 5px;
 }
