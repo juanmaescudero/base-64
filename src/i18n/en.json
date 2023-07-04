@@ -5,6 +5,13 @@
         "encode": "Encode",
         "upTextareaPlaceHolder": "Type or paste here",
         "downTextareaPlaceHolder": "Result",
-        "slogan": "Decode 64 base - Simplifying Data Encoding and Decoding"
+        "slogan": "Decode 64 base - Simplifying Data Encoding and Decoding",
+        "routes": {
+            "base": "Base 64",
+            "json": "JSON formatter"
+        }
+    },
+    "json": {
+        "ErrorParsing": "Error parsing the JSON"
     }
 }

@@ -8,7 +8,7 @@ import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import { useEffect, useState } from "react";
 
 export default function Textarea (props: ITextarea) {
-    const { onChange, placeHolder="", value="", disabled=false } = props
+    const { onChange, placeHolder="", value="", disabled=false, minHeight } = props
 
     const [ copied, setCopied ] = useState<boolean>(false)
 
@@ -20,6 +20,7 @@ export default function Textarea (props: ITextarea) {
         <Box className={styles.container} >
             <textarea 
                 className={styles.input} 
+                style={{ minHeight: minHeight ? `${minHeight}px` : "280px"}}
                 onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => onChange && onChange(e.target.value)}
                 placeholder={placeHolder}
                 value={value}

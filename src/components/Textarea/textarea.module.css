@@ -1,7 +1,6 @@
 .input {
     width: 100%;
     max-width: 500px;
-    min-height: 280px;
     display: flex;
     margin: 20px 0;
     border-radius: var(--border-radius-sm);
@@ -30,4 +29,11 @@ textarea.input::placeholder {
     position: absolute !important;
     bottom: 25px;
     right: 5px;
+    background-color: var(--color-primary-transparent);
+}
+.icon:hover {
+    position: absolute !important;
+    bottom: 25px;
+    right: 5px;
+    background-color: var(--color-primary-hover) !important;
 }

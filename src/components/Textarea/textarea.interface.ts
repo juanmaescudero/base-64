@@ -3,4 +3,5 @@ export interface ITextarea {
     placeHolder?: string
     value?: string
     disabled?: boolean
+    minHeight?: number
 }

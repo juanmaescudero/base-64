@@ -3,6 +3,7 @@
 :root {
   --color-primary: #d59dff;
   --color-primary-hover: rgb(149, 109, 178);
+  --color-primary-transparent: rgb(149 109 178 / 35%);
   --color-secondary: #444a68;
   --color-dark: #10142a;
   --color-grey: #8f94ab;
@@ -14,4 +15,27 @@
 
 * {
   font-family: "Montserrat";
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: var(--border-radius-sm);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-grey);
+  border-radius: var(--border-radius-sm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+  cursor: pointer !important;
+}
+
+a {
+  text-decoration: unset;
 }

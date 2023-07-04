@@ -1,13 +1,3 @@
-.selected {
-    background-color: var(--color-primary) !important;
-}
-
-.btn-group {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .textarea-group {
     width: calc(100% - 40px);
     display: flex;
