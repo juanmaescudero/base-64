@@ -25,9 +25,9 @@ export default function Header() {
             <Typography variant={"h1"}>{i18n.app.name}</Typography>
             <Typography variant={"body1"}>{i18n.app.slogan}</Typography>
             <nav className={styles.nav}>
-                {menuItems.map((item: IMenuItems) => {
+                {menuItems.map((item: IMenuItems, index: number) => {
                     return (
-                        <Link href={item.to}>
+                        <Link href={item.to} key={`menu-item-${index}`}>
                             <Typography
                                 variant={"body1"}
                                 className={pathName === item.to ? styles.active : ""}
