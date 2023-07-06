@@ -1,0 +1,22 @@
+.textarea-group {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.copy {
+    width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.copy p {
+    color: var(--color-grey);
+}

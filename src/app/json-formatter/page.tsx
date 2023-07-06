@@ -20,7 +20,7 @@ export default function Home() {
 
                 setResult(formattedJson)
             } catch (error) {
-                setResult(i18n.json.ErrorParsing)
+                setResult(i18n.json.errorParsing)
             }
         }
     }, [text])

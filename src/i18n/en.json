@@ -8,10 +8,14 @@
         "slogan": "Decode 64 base - Simplifying Data Encoding and Decoding",
         "routes": {
             "base": "Base 64",
-            "json": "JSON formatter"
+            "json": "JSON formatter",
+            "md5": "Md5 converter"
         }
     },
     "json": {
-        "ErrorParsing": "Error parsing the JSON"
+        "errorParsing": "Error parsing the JSON"
+    },
+    "md5": {
+        "errorConverting": "Error converting"
     }
 }
