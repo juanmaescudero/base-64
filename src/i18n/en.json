@@ -8,6 +8,7 @@
         "slogan": "Decode 64 base - Simplifying Data Encoding and Decoding",
         "routes": {
             "base": "Base 64",
+            "base64Image": "Base 64 Image",
             "json": "JSON formatter",
             "md5": "Md5 converter"
         }
@@ -17,5 +18,8 @@
     },
     "md5": {
         "errorConverting": "Error converting"
+    },
+    "image": {
+        "errorConverting": "Please paste a valid Base 64 image"
     }
 }

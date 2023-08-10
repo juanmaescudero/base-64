@@ -1,0 +1,56 @@
+.selected {
+    background-color: var(--color-primary) !important;
+}
+
+.btn-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textarea-group {
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.copy {
+    width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.copy p {
+    color: var(--color-grey);
+}
+
+.image-container {
+    width: 100%;
+    max-width: 500px;
+    max-height: 280px;
+    display: flex;
+    margin: 20px 0;
+    border-radius: var(--border-radius-sm);
+    padding: 10px;
+    resize: none;
+    outline: 0;
+    border: 0;
+    box-shadow: 0 2px 4px 0px var(--color-grey);
+    background-color: var(--color-secondary);
+    color: var(--color-light);
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

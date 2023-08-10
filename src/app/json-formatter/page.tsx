@@ -37,6 +37,7 @@ export default function Home() {
                         }}
                         placeHolder={i18n.app.upTextareaPlaceHolder}
                         value={text}
+                        minHeight={400}
                     />
                     <Textarea
                         placeHolder={i18n.app.downTextareaPlaceHolder}

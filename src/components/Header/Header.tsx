@@ -16,6 +16,7 @@ export default function Header() {
 
     const menuItems: IMenuItems[] = [
         {title: i18n.app.routes.base, to: "/"},
+        {title: i18n.app.routes.base64Image, to: "/base64-image"},
         {title: i18n.app.routes.json, to: "/json-formatter"},
         {title: i18n.app.routes.md5, to: "/md5-converter"}
     ]

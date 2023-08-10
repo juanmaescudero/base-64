@@ -1,6 +1,7 @@
 .input {
     width: 100%;
     max-width: 500px;
+    max-height: 280px;
     display: flex;
     margin: 20px 0;
     border-radius: var(--border-radius-sm);

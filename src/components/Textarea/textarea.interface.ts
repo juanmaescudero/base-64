@@ -4,4 +4,5 @@ export interface ITextarea {
     value?: string
     disabled?: boolean
     minHeight?: number
+    canCopy?: boolean
 }
