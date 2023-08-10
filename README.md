@@ -3,7 +3,7 @@
 This repository contains a utility tool built with React.js and Next.js that allows you to perform various encoding and decoding tasks, along with a string to MD5 converter.
 
 <p align="center">
-  <img src="https://github.com/juanmaescudero/aire-networks-pt/raw/main/public/screenshots/main-screenshot.png?raw=true" alt="decode 64 base">
+  <img src="https://github.com/juanmaescudero/base-64/blob/master/public/screenshots/main-screenshot.png?raw=true" alt="decode 64 base">
 </p>
 
 ## Features
